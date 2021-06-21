@@ -1,6 +1,6 @@
 # Curso básico git
 
-## Iniciar repositorio: El comando init inicializa el repositorio  crenado carpeta oculata 'git'
+## Iniciar repositorio: El comando init inicializa el repositorio  creando una carpeta oculta 'git'
 
 ```
 $ git init
@@ -24,3 +24,25 @@ $ git commit -m "comentario"
 ``` shell
 $ rm -rf .git
 ```  
+
+## Configurar repositorio remoto
+
+```
+git remote add origin <url>
+
+## Aplicar cambios
+
+```
+git push -u origin main
+```
+
+## Creación de ramas
+
+```
+git brach -M [nombre]
+
+```
+
+## Log de cambios
+
+## Comando dff
