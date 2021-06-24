@@ -33,12 +33,12 @@ wget -r https://www.apachefriends.org/xampp-files/8.0.7/xampp-linux-x64-8.0.7-0-
 /home/tu-usuario/www.apachefriends.org/xampp-files/<nro version>
 ```
 
-* Acceder a la ubicaci'on desde la consola y conceder permisos con chmod:
+3 Conseder permisos con chmod: Acceder a la ubicacion desde la consola y conceder permisos.
 
 ```shell
   chmod 755 xampp-linux-<nro version>-installer.run
 ```
-* Proceder a la instalacion
+4 Instalar 
 ```shell
 sudo ./xampp-linux-<nro version>-installer.run
 ```
