@@ -11,9 +11,14 @@
 
 * Arrancar xampp
 ```shell
-$ sudo /opt/lampp/lampp start
+  $ sudo /opt/lampp/lampp start
 ```
 * Detener xampp
 ```shell
-$ sudo /opt/lampp/lampp stop
+  $ sudo /opt/lampp/lampp stop
+```
+* Arrancar xampp
+```shell
+  $ cd /opt/lampp
+  $ sudo ./manager-linux-x64.run
 ```
