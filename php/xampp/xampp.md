@@ -30,8 +30,20 @@ wget -r https://www.apachefriends.org/xampp-files/8.0.7/xampp-linux-x64-8.0.7-0-
 * Una vez lo tengas descargado debes concederles permisos, si lo has descargado desde la web lo puedes localizar en tu carpeta de descargas, si fue a través de «wget», en…
 
 ```shell
-/home/tu-usuario/www.apachefriends.org/xampp-files/
+/home/tu-usuario/www.apachefriends.org/xampp-files/<nro version>
 ```
+
+* Acceder a la ubicaci'on desde la consola y conceder permisos con chmod:
+
+```shell
+  chmod 755 xampp-linux-<nro version>-installer.run
+```
+* Proceder a la instalacion
+```shell
+sudo ./xampp-linux-<nro version>-installer.run
+```
+Por ejemplo para la version 8.0.7-0 de 64 bits, el archivo de instalacion se llama `xampp-linux-x64-8.0.7-0-installer.run
+
 * Arrancar xampp
 ```shell
   $ sudo /opt/lampp/lampp start
