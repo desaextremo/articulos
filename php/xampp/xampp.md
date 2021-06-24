@@ -42,7 +42,7 @@ wget -r https://www.apachefriends.org/xampp-files/8.0.7/xampp-linux-x64-8.0.7-0-
 ```shell
 sudo ./xampp-linux-<nro version>-installer.run
 ```
-Por ejemplo para la version 8.0.7-0 de 64 bits, el archivo de instalacion se llama `xampp-linux-x64-8.0.7-0-installer.run
+Por ejemplo para la version 8.0.7-0 de 64 bits, el archivo de instalacion se llama `xampp-linux-x64-8.0.7-0-installer.run`
 
 * Arrancar xampp
 ```shell
