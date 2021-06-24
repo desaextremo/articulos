@@ -23,6 +23,8 @@ wget -r https://www.apachefriends.org/xampp-files/7.3.20/xampp-linux-x64-7.3.20-
 
 # Xampp con php 7.4
 wget -r https://www.apachefriends.org/xampp-files/7.4.8/xampp-linux-x64-7.4.8-0-installer.run
+
+wget -r https://www.apachefriends.org/xampp-files/8.0.7/xampp-linux-x64-8.0.7-0-installer.run
 ```
 
 * Arrancar xampp
